@@ -1,0 +1,112 @@
+body {
+  background-image: url("bootstrapimage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 900px ;
+  background-position-y: -5%;
+  overflow-x: hidden;
+  height: 3000px;
+}
+
+.logo {
+height: 10%;
+width: 10%;
+position: absolute;
+left: 16%;
+position: fixed;
+}
+/* 
+.logo:hover {
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  left: 16%;
+  position: fixed;
+} */
+
+.nav-bar {
+  border-style: none;
+  position: fixed;
+  left: 57%;
+  top: 41px;
+  display: flex;
+  flex-wrap: none;
+  gap: 25px;
+}
+
+.nav-buttons {
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+  
+}
+
+.nav-buttons:hover {
+  color: #FFC800;
+  cursor: pointer;
+}
+
+
+
+.center-greet {
+  color: white;
+  position: relative;
+  top: 185px;
+  left: 38%;
+  font-size: 37px;
+  font-family: "Roboto Slab";
+  font-weight: 500;
+}
+
+.center-greet2 {
+  color: white;
+  position: relative;
+  top: 160px;
+  left: 27%;
+  font-size: 70px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+
+.tellMeMore-button {
+  background-color: #FFC800;
+  color: white;
+  height: 75px;
+  width: 225px;
+  position: fixed;
+  left: 44%;
+  top: 43%;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  display: space-between;
+}
+
+.tellMeMore-button:hover {
+  background-color: #f1c00d;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.services-title {
+  color: black;
+  font-family: "Montserrat";
+  position: fixed;
+  left: 45%;
+  top: 80%;
+  font-size: 43px;
+  font-weight: 900;
+}
+
+.services-body {
+  color: rgb(146, 146, 146);
+  font-family: "Roboto Slab";
+  position: fixed;
+  left: 43%;
+  top: 93%;
+  font-size: 15px;
+}
